@@ -7,17 +7,20 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104097263-2"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-104097263-2');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-104097263-2');
     </script>
 
     <meta property="og:title" content="Are We Still Quarantined?" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://arewestillquarantined.com" />
-    <meta property="og:image" content="https://arewestillquarantined.com/yes.png" />
+    <meta property="og:image" content="https://arewestillquarantined.com/image.png" />
     <meta rel="canonical" href="https://arewestillquarantined.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -40,7 +43,7 @@
             align-items: center;
         }
 
-        .content {
+        .content span {
             font-size: 48px;
         }
     </style>
@@ -49,8 +52,8 @@
 <body>
     <div class="container">
         <div class="content">
-            <span>Yes.</span>
-            <span>Go Home...</span>
+            <span>Nope.</span>
+            <p>Don't be stupid though, wear a mask.</p>
         </div>
     </div>
 </body>
